@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		151D63930D2F71B303148A2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F23B76F115F1FE1F3378A50 /* Assets.xcassets */; };
+		166C5509EA56B08A123A93AC /* WatchLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153C326473AB106E356DBDB2 /* WatchLink.swift */; };
+		1BE6026BD8905F18EA70FF51 /* WatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D182F2AADBFCC0D565F4E57A /* WatchModel.swift */; };
+		2258125119811F2BF262C62C /* GlucoseTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4A28B9A6646D71E1267B68 /* GlucoseTheme.swift */; };
+		3660A6B3EDC1F5C839A1C565 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0237E9CC009D9DCFB659A4F6 /* ComplicationController.swift */; };
+		3C92AAEB9C38963A764E49FC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D3A25C7504B0C2E54AA6D /* WelcomeView.swift */; };
+		471D952AF0729FD855D03682 /* GlucoseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A557EAEB93CCDEEE97EE74B /* GlucoseModel.swift */; };
+		4F7E0B83F05A7FFB42E09A89 /* DexcomShareClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94A0D4A6F0736E24BEE4369 /* DexcomShareClient.swift */; };
+		524FD60C55BE886EA64D6CFE /* GlucoseFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBD3491D42499B58E163DDE /* GlucoseFormatting.swift */; };
+		6E72222D9F2C69FA5052AC48 /* GlicemiaWatch.app in Embed Dependencies */ = {isa = PBXBuildFile; fileRef = CF26D0DEE9C12D8E839AA0B4 /* GlicemiaWatch.app */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		72BA934B16F5C8FE9A616357 /* DexcomShareClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94A0D4A6F0736E24BEE4369 /* DexcomShareClient.swift */; };
+		7797BA694A7748110CEB1C18 /* GlicemiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479CD5AB907399CA77EBD4E /* GlicemiaApp.swift */; };
+		7BD3F1C18F37C2D23292C723 /* GlucoseTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4A28B9A6646D71E1267B68 /* GlucoseTheme.swift */; };
+		8243F831A59C1714200FBF04 /* BackgroundRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D05798012432606FB64B01B /* BackgroundRefresh.swift */; };
+		882BDFB1B1DAF503F7B578CA /* WatchRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D04F4F2D271FC357C66F7A /* WatchRootView.swift */; };
+		887932A130EFC2297634713A /* GlucoseComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0CD9F698185BEA86C1ECA8 /* GlucoseComponents.swift */; };
+		8EB760CA574F196219553B8B /* DexcomCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A33ABF4D0EABCBD3C54B18 /* DexcomCredentials.swift */; };
+		998BD78C79B4398E3C9A2498 /* PhoneHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194B0A82AC361C81A973209F /* PhoneHeroView.swift */; };
+		9CDF5CC1FF8C356D893201C0 /* GlucoseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A557EAEB93CCDEEE97EE74B /* GlucoseModel.swift */; };
+		9E0743A54E6549E01ECB2A03 /* GlucoseComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0CD9F698185BEA86C1ECA8 /* GlucoseComponents.swift */; };
+		A65DA72C3A9A9513B489B352 /* MockGlucoseSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45707545A7E409E6112FD0DB /* MockGlucoseSource.swift */; };
+		AB159792CD11966D011AF120 /* LastReadingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A251595BA61179D5FB0346 /* LastReadingStore.swift */; };
+		AC260B30A1D45DE2ABC51325 /* GlucoseFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBD3491D42499B58E163DDE /* GlucoseFormatting.swift */; };
+		AC33159AEA68212EF5055312 /* GlucoseSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5945688A71C881E7B82D968 /* GlucoseSource.swift */; };
+		B223B894136D5C9576B32DDA /* MockGlucoseSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45707545A7E409E6112FD0DB /* MockGlucoseSource.swift */; };
+		B529653033CB0D7C2BDA689E /* WatchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27C51BB32BBA04EFAFA9772 /* WatchDelegate.swift */; };
+		B64CCEE4984394E50AB28285 /* PhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1643885F68196B66FCE5C1A5 /* PhoneModel.swift */; };
+		B6BA4E52E44345C0BD0F2BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EFC33409121F791B7E5C3C /* Assets.xcassets */; };
+		B7D70C98D1AE176B9F741419 /* GlucoseSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5945688A71C881E7B82D968 /* GlucoseSource.swift */; };
+		CCB7C8371179CFE3FD79AD34 /* BrandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E923A702DB152BCB2D662F /* BrandMark.swift */; };
+		D04983402AC3B65AA4F672DD /* DexcomShareSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9072C583CAE4D79A9ED93040 /* DexcomShareSource.swift */; };
+		DD77A96B7E90B036A9959AD0 /* DexcomShareSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9072C583CAE4D79A9ED93040 /* DexcomShareSource.swift */; };
+		E3806E67E7C87802A6E03988 /* PhoneRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFAA3ADA2523219FA53F984 /* PhoneRootView.swift */; };
+		E95663CEEA482D0501C640BA /* GlicemiaWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B234C370CBD4DCE41D3BA3 /* GlicemiaWatchApp.swift */; };
+		F5C4DD1F869E106556AB564A /* LastReadingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A251595BA61179D5FB0346 /* LastReadingStore.swift */; };
+		F7CC67B02E772895B0F32215 /* WatchLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153C326473AB106E356DBDB2 /* WatchLink.swift */; };
+		F803F4D135044F12556FAB72 /* DexcomCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A33ABF4D0EABCBD3C54B18 /* DexcomCredentials.swift */; };
+		FD384BAAAA20BEF6FFC7D606 /* DexcomAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257494BE24F38AE1594F104A /* DexcomAccountView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0A6E0373D1D4FBB2355E99C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 104644C60F9E96FA06BA18E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBB16DDF5AAF8A056264941A;
+			remoteInfo = GlicemiaWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD63514FA034580E0F6F3DDF /* Embed Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6E72222D9F2C69FA5052AC48 /* GlicemiaWatch.app in Embed Dependencies */,
+			);
+			name = "Embed Dependencies";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01A33ABF4D0EABCBD3C54B18 /* DexcomCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexcomCredentials.swift; sourceTree = "<group>"; };
+		0237E9CC009D9DCFB659A4F6 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		153C326473AB106E356DBDB2 /* WatchLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLink.swift; sourceTree = "<group>"; };
+		1643885F68196B66FCE5C1A5 /* PhoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneModel.swift; sourceTree = "<group>"; };
+		194B0A82AC361C81A973209F /* PhoneHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneHeroView.swift; sourceTree = "<group>"; };
+		257494BE24F38AE1594F104A /* DexcomAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexcomAccountView.swift; sourceTree = "<group>"; };
+		2E857144589A94C7AFD339C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		34EFC33409121F791B7E5C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A557EAEB93CCDEEE97EE74B /* GlucoseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseModel.swift; sourceTree = "<group>"; };
+		3D07AAECFB4128A4264E5997 /* Glicemia.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Glicemia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45707545A7E409E6112FD0DB /* MockGlucoseSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGlucoseSource.swift; sourceTree = "<group>"; };
+		51E923A702DB152BCB2D662F /* BrandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandMark.swift; sourceTree = "<group>"; };
+		535E775042D6D1356488B166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5B0CD9F698185BEA86C1ECA8 /* GlucoseComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseComponents.swift; sourceTree = "<group>"; };
+		5D05798012432606FB64B01B /* BackgroundRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRefresh.swift; sourceTree = "<group>"; };
+		73D04F4F2D271FC357C66F7A /* WatchRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRootView.swift; sourceTree = "<group>"; };
+		82A251595BA61179D5FB0346 /* LastReadingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastReadingStore.swift; sourceTree = "<group>"; };
+		8F23B76F115F1FE1F3378A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9072C583CAE4D79A9ED93040 /* DexcomShareSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexcomShareSource.swift; sourceTree = "<group>"; };
+		B0B234C370CBD4DCE41D3BA3 /* GlicemiaWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlicemiaWatchApp.swift; sourceTree = "<group>"; };
+		B82D3A25C7504B0C2E54AA6D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		B94A0D4A6F0736E24BEE4369 /* DexcomShareClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexcomShareClient.swift; sourceTree = "<group>"; };
+		C479CD5AB907399CA77EBD4E /* GlicemiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlicemiaApp.swift; sourceTree = "<group>"; };
+		CF26D0DEE9C12D8E839AA0B4 /* GlicemiaWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlicemiaWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D182F2AADBFCC0D565F4E57A /* WatchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchModel.swift; sourceTree = "<group>"; };
+		D27C51BB32BBA04EFAFA9772 /* WatchDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchDelegate.swift; sourceTree = "<group>"; };
+		D5945688A71C881E7B82D968 /* GlucoseSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseSource.swift; sourceTree = "<group>"; };
+		EEFAA3ADA2523219FA53F984 /* PhoneRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneRootView.swift; sourceTree = "<group>"; };
+		EFBD3491D42499B58E163DDE /* GlucoseFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseFormatting.swift; sourceTree = "<group>"; };
+		FD4A28B9A6646D71E1267B68 /* GlucoseTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseTheme.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		157BEF2C10350BE9790BE16D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5BEF1B0D5414C9700B0C88FA /* Dexcom */,
+				5B0CD9F698185BEA86C1ECA8 /* GlucoseComponents.swift */,
+				EFBD3491D42499B58E163DDE /* GlucoseFormatting.swift */,
+				3A557EAEB93CCDEEE97EE74B /* GlucoseModel.swift */,
+				D5945688A71C881E7B82D968 /* GlucoseSource.swift */,
+				FD4A28B9A6646D71E1267B68 /* GlucoseTheme.swift */,
+				82A251595BA61179D5FB0346 /* LastReadingStore.swift */,
+				45707545A7E409E6112FD0DB /* MockGlucoseSource.swift */,
+				153C326473AB106E356DBDB2 /* WatchLink.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		24816371216F9FD10D335FFB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				74EF9AC09094F420F20A3317 /* iOS */,
+				157BEF2C10350BE9790BE16D /* Shared */,
+				5C5BF7CDF65621DCADB36D95 /* Watch */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5BEF1B0D5414C9700B0C88FA /* Dexcom */ = {
+			isa = PBXGroup;
+			children = (
+				01A33ABF4D0EABCBD3C54B18 /* DexcomCredentials.swift */,
+				B94A0D4A6F0736E24BEE4369 /* DexcomShareClient.swift */,
+				9072C583CAE4D79A9ED93040 /* DexcomShareSource.swift */,
+			);
+			path = Dexcom;
+			sourceTree = "<group>";
+		};
+		5C5BF7CDF65621DCADB36D95 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				8F23B76F115F1FE1F3378A50 /* Assets.xcassets */,
+				0237E9CC009D9DCFB659A4F6 /* ComplicationController.swift */,
+				B0B234C370CBD4DCE41D3BA3 /* GlicemiaWatchApp.swift */,
+				535E775042D6D1356488B166 /* Info.plist */,
+				D27C51BB32BBA04EFAFA9772 /* WatchDelegate.swift */,
+				D182F2AADBFCC0D565F4E57A /* WatchModel.swift */,
+				73D04F4F2D271FC357C66F7A /* WatchRootView.swift */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		74EF9AC09094F420F20A3317 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				34EFC33409121F791B7E5C3C /* Assets.xcassets */,
+				5D05798012432606FB64B01B /* BackgroundRefresh.swift */,
+				51E923A702DB152BCB2D662F /* BrandMark.swift */,
+				257494BE24F38AE1594F104A /* DexcomAccountView.swift */,
+				C479CD5AB907399CA77EBD4E /* GlicemiaApp.swift */,
+				2E857144589A94C7AFD339C2 /* Info.plist */,
+				194B0A82AC361C81A973209F /* PhoneHeroView.swift */,
+				1643885F68196B66FCE5C1A5 /* PhoneModel.swift */,
+				EEFAA3ADA2523219FA53F984 /* PhoneRootView.swift */,
+				B82D3A25C7504B0C2E54AA6D /* WelcomeView.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		86BF9125E92B58878F65108A = {
+			isa = PBXGroup;
+			children = (
+				24816371216F9FD10D335FFB /* Sources */,
+				EF04B5AE2258373C86F4AC88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF04B5AE2258373C86F4AC88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D07AAECFB4128A4264E5997 /* Glicemia.app */,
+				CF26D0DEE9C12D8E839AA0B4 /* GlicemiaWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FD8D267520CE3A01D8F6EBB /* Glicemia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14D0AB287C20399C5D1915A9 /* Build configuration list for PBXNativeTarget "Glicemia" */;
+			buildPhases = (
+				3E0CB932377B2D2D2DA88596 /* Sources */,
+				26BB5B85FE7E60942AFCBD8B /* Resources */,
+				CD63514FA034580E0F6F3DDF /* Embed Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB77C8B8FF5146405C0073D /* PBXTargetDependency */,
+			);
+			name = Glicemia;
+			packageProductDependencies = (
+			);
+			productName = Glicemia;
+			productReference = 3D07AAECFB4128A4264E5997 /* Glicemia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBB16DDF5AAF8A056264941A /* GlicemiaWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32B2E0E317960B521AD99E0 /* Build configuration list for PBXNativeTarget "GlicemiaWatch" */;
+			buildPhases = (
+				F2E2FA4AF5FCCDD7898AFDA8 /* Sources */,
+				808C8E4553B3CEBEB5A514CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlicemiaWatch;
+			packageProductDependencies = (
+			);
+			productName = GlicemiaWatch;
+			productReference = CF26D0DEE9C12D8E839AA0B4 /* GlicemiaWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		104644C60F9E96FA06BA18E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7FD8D267520CE3A01D8F6EBB = {
+						DevelopmentTeam = 787YK9YUB3;
+						ProvisioningStyle = Automatic;
+					};
+					DBB16DDF5AAF8A056264941A = {
+						DevelopmentTeam = 787YK9YUB3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 223A3E140C73529E047BA7F4 /* Build configuration list for PBXProject "Glicemia" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 86BF9125E92B58878F65108A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EF04B5AE2258373C86F4AC88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FD8D267520CE3A01D8F6EBB /* Glicemia */,
+				DBB16DDF5AAF8A056264941A /* GlicemiaWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26BB5B85FE7E60942AFCBD8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BA4E52E44345C0BD0F2BCA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808C8E4553B3CEBEB5A514CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151D63930D2F71B303148A2A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E0CB932377B2D2D2DA88596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8243F831A59C1714200FBF04 /* BackgroundRefresh.swift in Sources */,
+				CCB7C8371179CFE3FD79AD34 /* BrandMark.swift in Sources */,
+				FD384BAAAA20BEF6FFC7D606 /* DexcomAccountView.swift in Sources */,
+				8EB760CA574F196219553B8B /* DexcomCredentials.swift in Sources */,
+				4F7E0B83F05A7FFB42E09A89 /* DexcomShareClient.swift in Sources */,
+				DD77A96B7E90B036A9959AD0 /* DexcomShareSource.swift in Sources */,
+				7797BA694A7748110CEB1C18 /* GlicemiaApp.swift in Sources */,
+				9E0743A54E6549E01ECB2A03 /* GlucoseComponents.swift in Sources */,
+				AC260B30A1D45DE2ABC51325 /* GlucoseFormatting.swift in Sources */,
+				9CDF5CC1FF8C356D893201C0 /* GlucoseModel.swift in Sources */,
+				B7D70C98D1AE176B9F741419 /* GlucoseSource.swift in Sources */,
+				7BD3F1C18F37C2D23292C723 /* GlucoseTheme.swift in Sources */,
+				F5C4DD1F869E106556AB564A /* LastReadingStore.swift in Sources */,
+				A65DA72C3A9A9513B489B352 /* MockGlucoseSource.swift in Sources */,
+				998BD78C79B4398E3C9A2498 /* PhoneHeroView.swift in Sources */,
+				B64CCEE4984394E50AB28285 /* PhoneModel.swift in Sources */,
+				E3806E67E7C87802A6E03988 /* PhoneRootView.swift in Sources */,
+				F7CC67B02E772895B0F32215 /* WatchLink.swift in Sources */,
+				3C92AAEB9C38963A764E49FC /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E2FA4AF5FCCDD7898AFDA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3660A6B3EDC1F5C839A1C565 /* ComplicationController.swift in Sources */,
+				F803F4D135044F12556FAB72 /* DexcomCredentials.swift in Sources */,
+				72BA934B16F5C8FE9A616357 /* DexcomShareClient.swift in Sources */,
+				D04983402AC3B65AA4F672DD /* DexcomShareSource.swift in Sources */,
+				E95663CEEA482D0501C640BA /* GlicemiaWatchApp.swift in Sources */,
+				887932A130EFC2297634713A /* GlucoseComponents.swift in Sources */,
+				524FD60C55BE886EA64D6CFE /* GlucoseFormatting.swift in Sources */,
+				471D952AF0729FD855D03682 /* GlucoseModel.swift in Sources */,
+				AC33159AEA68212EF5055312 /* GlucoseSource.swift in Sources */,
+				2258125119811F2BF262C62C /* GlucoseTheme.swift in Sources */,
+				AB159792CD11966D011AF120 /* LastReadingStore.swift in Sources */,
+				B223B894136D5C9576B32DDA /* MockGlucoseSource.swift in Sources */,
+				B529653033CB0D7C2BDA689E /* WatchDelegate.swift in Sources */,
+				166C5509EA56B08A123A93AC /* WatchLink.swift in Sources */,
+				1BE6026BD8905F18EA70FF51 /* WatchModel.swift in Sources */,
+				882BDFB1B1DAF503F7B578CA /* WatchRootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BB77C8B8FF5146405C0073D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBB16DDF5AAF8A056264941A /* GlicemiaWatch */;
+			targetProxy = E0A6E0373D1D4FBB2355E99C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2EE5A9D4C3C9BEAB00B2FF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=watchos*]" = "armv7k arm64_32 arm64";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/Watch/Info.plist;
+				"ONLY_ACTIVE_ARCH[config=Release]" = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paolocelestini.glicemia.watchkitapp;
+				PRODUCT_NAME = Glicemia;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		A6502D0D9CA8CF7E95D53464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 787YK9YUB3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 0.4.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		C65981CC712B2BC4050796BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paolocelestini.glicemia;
+				PRODUCT_NAME = Glicemia;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D42A028AEE58CE3A7AA11D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=watchos*]" = "armv7k arm64_32 arm64";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/Watch/Info.plist;
+				"ONLY_ACTIVE_ARCH[config=Release]" = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paolocelestini.glicemia.watchkitapp;
+				PRODUCT_NAME = Glicemia;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		DD275F18B7D5B923B9F6769C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 787YK9YUB3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 0.4.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		FC788AC9802F752638757057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paolocelestini.glicemia;
+				PRODUCT_NAME = Glicemia;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14D0AB287C20399C5D1915A9 /* Build configuration list for PBXNativeTarget "Glicemia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65981CC712B2BC4050796BF /* Debug */,
+				FC788AC9802F752638757057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		223A3E140C73529E047BA7F4 /* Build configuration list for PBXProject "Glicemia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6502D0D9CA8CF7E95D53464 /* Debug */,
+				DD275F18B7D5B923B9F6769C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B32B2E0E317960B521AD99E0 /* Build configuration list for PBXNativeTarget "GlicemiaWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE5A9D4C3C9BEAB00B2FF4C /* Debug */,
+				D42A028AEE58CE3A7AA11D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 104644C60F9E96FA06BA18E8 /* Project object */;
+}

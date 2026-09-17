@@ -1,0 +1,87 @@
+name: Glicemia
+options:
+  bundleIdPrefix: com.paolocelestini
+  createIntermediateGroups: true
+  groupSortPosition: top
+  deploymentTarget:
+    iOS: "16.0"
+    watchOS: "8.0"
+
+settings:
+  base:
+    DEVELOPMENT_TEAM: "787YK9YUB3"
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "0.4.0"
+    CURRENT_PROJECT_VERSION: "1"
+    ENABLE_USER_SCRIPT_SANDBOXING: "NO"
+    SWIFT_EMIT_LOC_STRINGS: "NO"
+    CLANG_ENABLE_MODULES: "YES"
+
+targets:
+  Glicemia:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: Sources/Shared
+        excludes: ["._*", "**/._*", ".DS_Store"]
+      - path: Sources/iOS
+        excludes: ["._*", "**/._*", ".DS_Store"]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.paolocelestini.glicemia
+        PRODUCT_NAME: Glicemia
+        INFOPLIST_FILE: Sources/iOS/Info.plist
+        GENERATE_INFOPLIST_FILE: "NO"
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        SUPPORTS_MACCATALYST: "NO"
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: "NO"
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: "NO"
+    dependencies:
+      - target: GlicemiaWatch
+        embed: true
+        codeSign: true
+        copy:
+          destination: productsDirectory
+          subpath: "$(CONTENTS_FOLDER_PATH)/Watch"
+
+  GlicemiaWatch:
+    type: application
+    platform: watchOS
+    deploymentTarget: "8.0"
+    sources:
+      - path: Sources/Shared
+        excludes: ["._*", "**/._*", ".DS_Store"]
+      - path: Sources/Watch
+        excludes: ["._*", "**/._*", ".DS_Store"]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.paolocelestini.glicemia.watchkitapp
+        PRODUCT_NAME: Glicemia
+        INFOPLIST_FILE: Sources/Watch/Info.plist
+        GENERATE_INFOPLIST_FILE: "NO"
+        TARGETED_DEVICE_FAMILY: "4"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        SKIP_INSTALL: "YES"
+        "ARCHS[sdk=watchos*]": "armv7k arm64_32 arm64"
+        "ONLY_ACTIVE_ARCH[config=Release]": "NO"
+
+schemes:
+  Glicemia:
+    build:
+      targets:
+        Glicemia: all
+    run:
+      config: Debug
+    archive:
+      config: Release
+  GlicemiaWatch:
+    build:
+      targets:
+        GlicemiaWatch: all
+    run:
+      config: Debug
